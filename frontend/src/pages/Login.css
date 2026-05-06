@@ -1,0 +1,88 @@
+/* PAGE BACKGROUND */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #e4ecfb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD BOX */
+.login-box {
+  background: white;
+  padding: 35px;
+  width: 360px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.login-box:hover {
+  transform: translateY(-4px);
+}
+
+/* TITLE */
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/* INPUT FIELDS */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+/* INPUT FOCUS EFFECT */
+.login-box input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* BUTTON */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #2563eb, #1e40af); /* 🔥 your required gradient */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}
+
+/* BUTTON HOVER */
+.login-box button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+/* BUTTON CLICK */
+.login-box button:active {
+  transform: scale(0.97);
+}
+
+/* LINK TEXT */
+.login-box p {
+  font-size: 13px;
+  color: #555;
+}
+
+.login-box span {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.login-box span:hover {
+  text-decoration: underline;
+}
