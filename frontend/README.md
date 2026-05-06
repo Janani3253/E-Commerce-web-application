@@ -1,16 +1,117 @@
-# React + Vite
+# 🛒 E-Commerce Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This is the frontend of a full-stack e-commerce web application built using **React.js**.
+It allows users to browse products, view details, add items to cart, and place orders.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔐 User Login & Registration
+* 🛍️ Browse Products
+* 📄 Product Details Page
+* 🛒 Add to Cart
+* 🧾 Checkout System
+* 📦 Order Success Page
+* 🧭 Navigation Bar with Cart Count
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* React.js
+* Axios
+* React Router DOM
+* CSS
+
+---
+
+## 📂 Project Structure
+
+src/
+│── components/
+│   └── ProductCard.jsx
+│   └── Navbar.jsx
+│
+│── pages/
+│   └── HomePage.jsx
+│   └── Login.jsx
+│   └── Register.jsx
+│   └── Cart.jsx
+│   └── Checkout.jsx
+│   └── ProductDetails.jsx
+│   └── Success.jsx
+│
+│── App.jsx
+│── main.jsx
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/ecommerce-project.git
+cd frontend
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
+
+```bash
+npm run dev
+```
+
+App will run on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🔗 API Connection
+
+Make sure backend is running on:
+
+```text
+http://localhost:5000
+```
+
+---
+
+## 🧠 Key Concepts Used
+
+* React Hooks (useState, useEffect)
+* Routing using React Router
+* API calls using Axios
+* State management for cart
+
+---
+
+## 📸 Screens
+
+* Home Page
+* Product Details
+* Cart Page
+* Checkout Page
+
+---
+
+## ✨ Future Improvements
+
+* Payment Integration (Razorpay / Stripe)
+* Order History Page
+* Search & Filter Products
+* Admin Dashboard UI
+
+---
+
